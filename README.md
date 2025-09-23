@@ -15,30 +15,6 @@ Detect, analyze, and **convert** character encodings of CSV files across many fo
 
 ---
 
-## ✨ New Features
-
-### 🔍 **Interactive File Explorer**
-Browse and explore files by encoding after analysis:
-- View all files with a specific encoding (e.g., find all EUC-JP files)
-- See confidence levels and full paths
-- Navigate with simple number selections
-- Perfect for finding files that need conversion
-
-### 🔄 **Encoding Conversion**
-Convert your CSV files to a standard encoding with safety features:
-- Automatic `.bak` backup creation
-- Dry-run mode to preview changes
-- Filter by source encoding
-- Detailed conversion reports
-
-### ↩️ **Rollback Support**
-Made a mistake? Instantly restore from backups:
-```bash
-python3 check_csv_charset.py /path/to/data --rollback
-```
-
----
-
 ## 📁 Flexible Folder Structure
 
 ```
